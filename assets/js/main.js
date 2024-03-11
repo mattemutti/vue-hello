@@ -1,4 +1,4 @@
-console.log('funzia?');
+//console.log('funzia?');
 
  const { createApp } = Vue
 
@@ -6,9 +6,20 @@ console.log('funzia?');
 
  	data() {
  		return {
- 			message: 'Buond Vue'
+ 			message: 'Buondì Vue',
+			//imageRandom: ,
+
+
+		}
+	},
+
+	methods: {
+
+		linkImg: function() {
+			return 'https://picsum.photos/200';
 		}
 	}
+
 
  }).mount('#app')
 
